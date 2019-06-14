@@ -4,7 +4,6 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 data = keras.datasets.mnist
-print(data)
 (trainImages, trainLabels), (testImages, testLabels) = data.load_data()
 trainImages = trainImages / 255.0
 testImages = testImages / 255.0

@@ -33,7 +33,6 @@ for i in range(10000):
 		incorrectImage.append(testImages[i])
 		incorrectActual.append(classNames[testLabels[i]])
 print(correct)
-counter = 0
 
 for i in range(10): #Displays 10 incorrect predictions
 	plt.grid(False)
